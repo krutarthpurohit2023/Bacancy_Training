@@ -10,3 +10,4 @@ int main(){
     int a=10,b=20;
     fun(&a,&b); 
 }
+
