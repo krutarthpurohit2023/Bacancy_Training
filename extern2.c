@@ -12,4 +12,3 @@
     printValue();
     return 0;
   }
-  
