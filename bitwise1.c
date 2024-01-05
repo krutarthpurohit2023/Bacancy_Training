@@ -17,5 +17,4 @@ int main(){
         printf("%d ",c1[i]);
     }
     
-
 }
