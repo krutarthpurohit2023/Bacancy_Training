@@ -6,13 +6,6 @@
 #define mult(a,b) printf("Multiplication of %0.3f * %0.3f = %0.3f",a,b,a*b);
 #define divide(a,b) printf("Divide of %0.3f / %0.3f = %0.3f",a,b,a/b);
 
-/*
-
-1. pointer
-2. struct
-3. error handling
-
-*/
 int main()
 {
     int n;
@@ -64,7 +57,7 @@ int main()
     printf("\n\nWould you like to rerun the program? Enter Yes/No or \"help\" to get details- ");
     scanf("%s",rerun);
 
-    if ((!(strcmp("yes",rerun)) || !(strcmp("YES",rerun)) || !(strcmp("Yes",rerun))) )
+    if ((!(strcmp("yes",rerun)) || !(strcmp("YES",rerun)) || !(strcmp("Yes",rerun))))
         goto label;
     else if (!(strcmp("help", rerun)))
         goto lable1;
