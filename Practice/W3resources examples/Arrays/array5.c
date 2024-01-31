@@ -21,5 +21,7 @@ int main()
             }
         }
     }
-    printf("\n%d duplicate elements",count);
+   printf("\n%d duplicate elements",count);
+
+    
 }
